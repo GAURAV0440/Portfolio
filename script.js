@@ -27,19 +27,16 @@ const projectsArray = [
     title: "Tab Wizard",
     desc: " This Chrome extension suggests tab names for quick recognition and automatically renames tabs depending on content analysis. To improve speed and browsing pleasure, it also permits manual tab renaming for customized tab management.",
     githubLink: " https://github.com/GAURAV0440/Wizard",
-    demoLink: " ",
   },
   {
     title: "VIrtual Assistant",
     desc: "This Python project serves as a virtual assistant, aiming to provide voice-controlled assistance for various tasks. These tasks include answering questions, providing weather updates, managing schedules, controlling smart devices, and much more.",
     githubLink: " ",
-    demoLink: " ",
   },
   {
     title: "Diwali Sales Analysis Project",
     desc: " I utilized Pandas for data processing, NumPy for calculations, and Matplotlib/Seaborn for visualization. Conducted systematic EDA to uncover trends, enabling informed decision-making.",
     githubLink: " https://github.com/GAURAV0440/Diwali-Sales-Analysis ",
-    demoLink: " ",
   },
 ];
 
@@ -74,12 +71,12 @@ projectsArray.forEach((project, index) => {
   githubLink.href = project.githubLink;
   githubLink.textContent = "github";
   githubLink.style.display = project.githubLink ? "block" : "none"
-  const demoLink = document.createElement("a");
-  demoLink.target = "_blank";
-  demoLink.href = project.demoLink;
-  demoLink.textContent = "demo";
+  // const demoLink = document.createElement("a");
+  // demoLink.target = "_blank";
+  // demoLink.href = project.demoLink;
+  // demoLink.textContent = "demo";
 
-  links.append(githubLink, demoLink);
+  links.append(githubLink);
 
   div.append(h3, p, links);
 
