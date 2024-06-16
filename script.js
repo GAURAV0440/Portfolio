@@ -26,12 +26,12 @@ const projectsArray = [
   {
     title: "Tab Wizard",
     desc: " This Chrome extension suggests tab names for quick recognition and automatically renames tabs depending on content analysis. To improve speed and browsing pleasure, it also permits manual tab renaming for customized tab management.",
-    githubLink: " https://github.com/GAURAV0440/Wizard",
+    githubLink: " https://github.com/GAURAV0440/Wizard ",
   },
   {
     title: "VIrtual Assistant",
     desc: "This Python project serves as a virtual assistant, aiming to provide voice-controlled assistance for various tasks. These tasks include answering questions, providing weather updates, managing schedules, controlling smart devices, and much more.",
-    githubLink: " ",
+    githubLink: " https://github.com/GAURAV0440/Virtual-Assistant ",
   },
   {
     title: "Diwali Sales Analysis Project",
